@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Path = require('path');
 
-const files = [ 'package-lock.json', 'yarn.lock', 'node_modules' ];
+const files = [ 'package-lock.json', 'node_modules' ];
 
 const deleteFolderRecursive = function(path) {
 	if (fs.existsSync(path)) {
